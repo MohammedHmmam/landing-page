@@ -15,16 +15,23 @@ const navUl = document.getElementById('navbar__list');
 
 //Loop on each section to get the data
 for(section of sections){
+    //Create List Item
     const liItem = document.createElement('li');
+    //Create a Item
     const liLink = document.createElement('a');
+    //Set href to the target section id
     liLink.setAttribute('href' , '#' + section.getAttribute('id'));
+    //add style to the nav menu Items
+    liLink.setAttribute('class' , 'menu__link');
+    //Add text content to a element which will be the same section id
     liLink.textContent = section.getAttribute('id');
     
+    //Append the <a> Element to Li item
     liItem.appendChild(liLink);
-
+    // Add the List item to the DocumentFragment
     navFragment.appendChild(liItem);
 }
-
+//Add the Document Fragment to Ul
 navUl.appendChild(navFragment);
 ///////////////////////////////////////////////////
 /////// Create Nav Menu Elemetns End Here/////////////////
