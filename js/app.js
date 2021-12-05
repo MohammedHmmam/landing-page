@@ -46,6 +46,11 @@ navUl.addEventListener('click' , function(event){
             for(linkElement of LinkElements){
                 if(linkElement.classList.contains('active_menu_link')){
                     linkElement.classList.remove('active_menu_link');
+                    //Scroll to the selecetd Section
+                    document.querySelector(event.target.getAttribute('href')).scrollIntoView({ 
+                        behavior: 'smooth' 
+                      });
+                    
                 }
             }
             //2-Then add it
