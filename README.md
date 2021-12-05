@@ -11,23 +11,24 @@ The project creates the top menu items dynamically based on the number of sectio
 
 ## the technology stack used in the project
 
-..* HTML
-..* CSS
-..* JavaScript
-...* DOM
+1. HTML
+2. CSS
+3. JavaScript (DOM)
+
 
 ## prerequisites installations
 
-... All You need is just Web browser such as Chrome
+ All You need is just Web browser such as Chrome
 
 ## Resources
 
-... [getBoundingClientRect()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
+1. [getBoundingClientRect()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
 
-... [Viewport](https://developer.mozilla.org/en-US/docs/Glossary/Viewport)
+2. [Viewport](https://developer.mozilla.org/en-US/docs/Glossary/Viewport)
 
-... [FWD online community](https://nfpdiscussions.udacity.com/)
+3. [FWD online community](https://nfpdiscussions.udacity.com/)
 
-... [stackoverflow](https://stackoverflow.com/)
+4. [stackoverflow](https://stackoverflow.com/)
+
 
 
