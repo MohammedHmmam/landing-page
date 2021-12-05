@@ -71,7 +71,23 @@ navUl.addEventListener('click' , function(event){
 ///////////////////////////////////////////////////
 window.addEventListener('scroll' , function(event){
     
+    //Loop for each section
+    for(section of sections){
+        //Check if current Section in the view Port
+        if(section.getBoundingClientRect().top >= 0 && section.getBoundingClientRect().top <= 300){
+            //Remove All Active class from the another Sections
+            for(cureentSection of sections){
+                //Check if current Section contain active class
+                if(cureentSection.classList.contains('your-active-class')){
+                    //Then remove it
+                    cureentSection.classList.remove('your-active-class');
 
+                }
+            }
+            //Then add Active class to the section in veiw port
+            section.classList.add('your-active-class');
+        }
+    }
      
     
 });
