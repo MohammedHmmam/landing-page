@@ -39,7 +39,20 @@ navUl.appendChild(navFragment);
 navUl.addEventListener('click' , function(event){
     //Make sure The <a> Element Was clicked not ul
     if(event.target.nodeName === 'A'){
-        
+        //check if the target element does not have a .active_menu_link class, Then add it
+        if(!event.target.classList.contains('active_menu_link')){
+            //1- Remove .active_menu_link From all <a> Elements
+            const LinkElements = this.querySelectorAll('.menu__link');
+            for(linkElement of LinkElements){
+                if(linkElement.classList.contains('active_menu_link')){
+                    linkElement.classList.remove('active_menu_link');
+                }
+            }
+            //2-Then add it
+            event.target.classList.add('active_menu_link');
+            
+
+        }
     }
 });
 
