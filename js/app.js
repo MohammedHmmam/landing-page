@@ -33,6 +33,17 @@ for(section of sections){
 }
 //Add the Document Fragment to Ul
 navUl.appendChild(navFragment);
+
+//Add Event listener to menu items
+///// I added Event listener to UL rather than <a> Element for PErformance Reasons
+navUl.addEventListener('click' , function(event){
+    //Make sure The <a> Element Was clicked not ul
+    if(event.target.nodeName === 'A'){
+        
+    }
+});
+
+
 ///////////////////////////////////////////////////
 /////// Create Nav Menu Elemetns End Here/////////////////
 ///////////////////////////////////////////////////
