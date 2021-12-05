@@ -4,10 +4,30 @@
 
 * [Instructions](#instructions)
 
-## Instructions
+## Project Description
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+This project is an interactive (page) containing several sections that are added from the dashboard or API or are added manually.
+The project creates the top menu items dynamically based on the number of sections that have been added, and then creates a link within each menu item and connects it to its own section, and this makes the process of accessing each section easy and simple by clicking on the menu item only.
 
-To get started, open `js/app.js` and start building out the app's functionality
+## the technology stack used in the project
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+..* HTML
+..* CSS
+..* JavaScript
+...* DOM
+
+## prerequisites installations
+
+... All You need is just Web browser such as Chrome
+
+## Resources
+
+... [getBoundingClientRect()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
+
+... [Viewport](https://developer.mozilla.org/en-US/docs/Glossary/Viewport)
+
+... [FWD online community](https://nfpdiscussions.udacity.com/)
+
+... [stackoverflow](https://stackoverflow.com/)
+
+
